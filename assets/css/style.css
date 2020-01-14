@@ -1,0 +1,95 @@
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  .box {
+    float: left;
+    width: 33%;
+    padding: 50px;
+    height: 700px;
+  }
+  
+  .box2 {
+    float: left;
+    width: 67%;
+    padding: 50px;
+    height: 700px;
+  }
+
+  #user-guess {
+    width: 70%
+    
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+
+
+  .wheatherInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 12px;
+    color: white;
+    
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+
+    
+  }
+  .temperature {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 11, 12);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: -1px 0 rgb(247, 244, 244), 0 1px rgb(250, 248, 248), 1px 0 rgb(250, 248, 248), 0 -1px rgb(250, 248, 248);
+
+
+
+
+    
+    
+  }
+  .feelsLike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 11, 12);
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: -1px 0 rgb(247, 244, 244), 0 1px rgb(250, 248, 248), 1px 0 rgb(250, 248, 248), 0 -1px rgb(250, 248, 248);
+
+
+
+
+
+    
+  }
